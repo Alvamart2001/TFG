@@ -1,0 +1,14 @@
+.textWhite {
+    color: #6f6f6f;
+}
+
+.textWhite a,
+.textWhite a:hover,
+.textWhite a:active,
+.textWhite a:visited {
+    color: #6f6f6f;
+}
+
+.icon-hover:hover {
+    color: #6f6f6f;
+}

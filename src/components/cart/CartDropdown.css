@@ -1,0 +1,129 @@
+.cart-dropdown {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: #000; 
+    color: var(--color-texto);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-dropdown.open {
+    right: 0; 
+  }
+  
+  .cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000; 
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-header h2 {
+    margin: 0;
+    color: var(--color-texto)
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color-texto)
+  }
+  
+  .cart-items {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff; 
+    color: #000; 
+  }
+  
+  .cart-item-image {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info {
+    flex: 1;
+  }
+  
+  .cart-item-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .cart-item-info p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #000; 
+  }
+  
+  .cart-footer {
+    padding: 20px;
+    background-color: #000;
+    border-top: 1px solid #ddd;
+    color: #fff;
+  }
+  
+  .cart-footer p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff; 
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+
+  .discount-badge {
+    background-color: #f39c12;
+    color: white;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+  }
+  

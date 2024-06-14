@@ -1,0 +1,27 @@
+.terms-container {
+    margin: 0 10%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .terms-container h1, .terms-container h2 {
+    color: black;
+  }
+  
+  .terms-container p, .terms-container ul {
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .terms-container ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .terms-container li {
+    margin-bottom: 10px;
+  }
+  

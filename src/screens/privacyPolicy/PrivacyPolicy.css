@@ -1,0 +1,27 @@
+.policy-container {
+    margin: 0 10%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .policy-container h1, .policy-container h2 {
+    color: black;
+  }
+  
+  .policy-container p, .policy-container ul {
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .policy-container ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .policy-container li {
+    margin-bottom: 10px;
+  }
+  
