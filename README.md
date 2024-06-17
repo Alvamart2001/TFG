@@ -1,8 +1,33 @@
-# React + Vite
+# Instalación
+Para clonar y ejecutar esta aplicación, sigue los siguientes pasos:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Clonar el repositorio
+```bash
+git clone https://github.com/Alvamart2001/TFG
+```
 
-Currently, two official plugins are available:
+### Entrar a la carpeta
+```bash
+cd TFG
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instalar las dependencias
+```bash
+npm install
+```
+
+### Ejecutar la aplicación
+```bash
+npm rund dev
+```
+
+### Ejecutar el servidor
+En una nueva terminal, ejecutar el siguiente comando:
+```bash
+node server.cjs
+```
+
+### Acceder a la página web
+```bash
+https://localhost:5173
+```
